@@ -21,7 +21,7 @@ order by 1,2
 Select location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 from PorfolioProjectSQL..CovidDeaths
 where location like '%ph%'
-where continent is not null
+--where continent is not null
 order by 1,2
 
 -- Total Cases vs Population
@@ -30,7 +30,7 @@ order by 1,2
 Select location, date, total_cases, population, (total_cases/population)*100 as PercentPopulationInfected
 from PorfolioProjectSQL..CovidDeaths
 where location like '%ph%'
-where continent is not null
+--where continent is not null
 order by 1,2
 
 -- Countries with Highest Infection Rate compared to Population
