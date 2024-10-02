@@ -1,0 +1,1 @@
+This portfolio highlights my expertise in **data analysis and visualization**, with strong skills in using various software tools, analytics platforms, and databases, along with continuous learning in coding and automation techniques.
